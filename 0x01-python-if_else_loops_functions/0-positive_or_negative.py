@@ -8,5 +8,5 @@ for i in range (-10, 10)
         print ("i is positive")
     elif i == 0:
         print ("i is zero")
-    else:
+    elif i < 0:
     print ("i is negative")
