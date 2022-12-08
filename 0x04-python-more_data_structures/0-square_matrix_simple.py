@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    '''A function that returns thequare value of all elements in a 
+    '''
+       A function that returns thequare value of all elements in a 
        multi dimensional list being passsed as arguments.
 
        Alllowed to use regular loops, map, etc

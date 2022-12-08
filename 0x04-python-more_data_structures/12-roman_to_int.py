@@ -25,14 +25,12 @@ def to_subtract(list_num):
 
         for ch in roman_string:
             for r_num in list_keys:
-                if r_num == ch;
-                if rom_n.get(ch) <= last_rom:
-                    num += to_subtract(list_num)
-                    list_num = [rom_n.get(ch)]
-                else:
-                    list_num.append(rom_n.get(ch)]
+                if r_num == ch:
+                    if rom_n.get(ch) <= last_rom:
+                        num += to subtract(list_num)
+                        list_num = [rom_n.get(ch)]
+                    else:
+                        list_num.append(rom_n.get(ch))
 
-                last_rom = rom_n.get(ch)
-            num += to subtracy(list_num)
-
-            return (num)
+                    last_rom = rom_n.get(ch)
+        num += to_subtract(list_num)
