@@ -5,11 +5,11 @@ def safe_print_integer(value):
     Args:
         value (int): THe integer to print.
     Returns:
-         if a TypeError or ValueError occurs - False.
-         else - True.
+         If a TypeError or ValueError occurs - False.
+         Otherwise - True.
     '''
     try:
         print("{:d}".format(value))
         return (True)
     except (TypeError, ValueError):
-        return (False
+        return (False)
