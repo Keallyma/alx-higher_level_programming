@@ -1,4 +1,0 @@
-lps
-functions
-if
-else

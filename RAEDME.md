@@ -1,4 +1,0 @@
-loops
-while
-if
-else
