@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 
+''' A Module that creates a Square object '''
+
 '''Define a class Square.'''
 
 
-''' A Module that creates a Square object '''
-
-class Square;
+class Square:
 ''' Creating an Object template '''
 
     def __init__(self, size = 0):
