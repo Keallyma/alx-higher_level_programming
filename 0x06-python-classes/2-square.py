@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-'''A Module that creates a Square object'''
+''' A Module that creates a Square object '''
 
 class Square;
-'''Creating an Object template'''
+''' Creating an Object template '''
 
     def __init__(self, size = 0):
         '''
@@ -17,7 +17,7 @@ class Square;
         if type(size) is int:
             if size < 0:
                 raise
-valueError('Size must be >= 0')
+ValueError('Size must be >= 0')
             else:
                 selfe.__size = size
         else:
