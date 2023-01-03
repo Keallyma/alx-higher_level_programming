@@ -16,8 +16,8 @@ class Rectangle:
         '''Initialize a new Rectangle.
         Args:
             width (int): The width of the new rectangle.
-            height (int): The height  of the new rectangle.
-        '''
+            height (int): The height  of the new rectangle.'''
+
     type(self).number_of_instances += 1
             self.width = width
             self.height = height
@@ -48,6 +48,10 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         self.__height = value
 
+    def area(self):
+        '''Return area of the Rectangle.'''
+        return (self.__width * self.__height)
+
     def perimeter(self):
         '''Return the perimeter of the Rectangle.'''
         if self.__width == 0 or self.__height == 0:
@@ -58,8 +62,7 @@ class Rectangle:
     def square(cls, size=0):
         '''Returna new Rectangle with width and height equal to size.
         Args:
-            size (int): The width and height of the new Rectangle.
-        '''
+            size (int): The width and height of the new Rectangle.'''
 
         return (cls(size, size))
 
@@ -71,7 +74,7 @@ class Rectangle:
 
         rect = []
         for i in range(self.__height):
-            [rect.aappend('#') for j in range(self.__width)]
+            [rect.aappend(str(self.print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
