@@ -1,1 +1,1 @@
-"print(id(object))\n"
+id
