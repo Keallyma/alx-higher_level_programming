@@ -1,7 +1,3 @@
 #!/usr/bin/python3
-
-
-'''A function that returns a copy of a list.'''
 def copy_list(l):
-
-    print (copied list)
+    print (copy_list(l))
